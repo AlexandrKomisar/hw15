@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.app {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.app-header {
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  height: 1072px;
+  color: #ffffff;
+  padding: 250px 27% 100px 27%;
+  margin: 0 auto;
+}
+
+.header__title {
+  font-size: 54px;
+  font-weight: 700;
+  padding-top: 90px;
+}
+
+.header__text {
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 50px;
+  line-height: 24px;
+}
+
+.header__icon-scroll {
+  padding-top: 100px;
+}
+
+.app-about {
+  background: #ffffff;
+  padding: 150px 27% 150px 27%;
+  color: #3c3c3c;
+}
+
+.about__title {
+  font-size: 34px;
+  font-weight: 700;
+  background: #ffffff;
+  position: absolute;
+  width: 400px;
+  top: -15px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.about__text {
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+  border: solid #3c3c3c 2px;
+  padding: 60px 170px 30px 170px;
+}
+
+.app-services {
+  background-image: url(../img/services.jpg);
+  background-size: cover;
+  height: 488px;
+  padding: 150px 27% 0 27%;
+  color: #ffffff;
+}
+
+.app-services__text {
+  border: solid 2px;
+  position: relative;
+  height: 250px;
+}
+
+.app-services__title {
+  background: #a9b3c7;
+  position: absolute;
+  width: 400px;
+  top: -15px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.app-skills {
+  background: #ffffff;
+  color: #3c3c3c;
+  margin: 115px 27% 115px 27%;
+}
+
+.app-skills__title {
+  font-size: 30px;
+  background: #ffffff;
+  position: absolute;
+  width: 400px;
+  top: -15px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.app-skills__text {
+  border: #3c3c3c solid 2px;
+  position: relative;
+  padding: 0 50px;
+}
+
+.app-skills__text-icon {
+  padding-top: 50px;
+}
+
+.app-skills__text-skill {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.app-works {
+  background-image: url(../img/outwork.png);
+  height: 490px;
+  background-size: cover;
+}
+
+.app-contact {
+  position: relative;
+  border: #3c3c3c solid 2px;
+  margin: 130px 27% 0 27%;
+  padding: 0 50px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.app-contact__title {
+  font-size: 30px;
+  font-weight: 700;
+  background: #ffffff;
+  position: absolute;
+  width: 400px;
+  top: -15px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.app-contact__text-btn {
+  font-weight: 400;
+  background: #3c3c3c;
+  border: none;
+  width: 390px;
+  height: 60;
+  color: #ffffff;
+}
+
+.app-footer {
+  font-size: 14px;
+  font-weight: 400;
+  height: 150px;
+}
